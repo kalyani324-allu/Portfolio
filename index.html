@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLU KALYANI - Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <label for="theme-toggle" class="theme-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="title-container">
+                <h1>Hi, I'm <span class="highlight">ALLU KALYANI</span></h1>
+                <p class="subtitle">Front-End Developer | Machine Learning Engineer</p>
+            </div>
+            <div class="location-info">
+                <p><i class="fas fa-map-marker-alt"></i> Sanjeevapuram, Garladinne, Ananthapuramu, 515731, Andhra Pradesh</p>
+                <p><i class="fas fa-phone"></i> +91 9121162342</p>
+                <p><i class="fas fa-envelope"></i> kalyanisrinivas3204@gmail.com</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="/kalyani_resume.pdf" class="btn primary-btn" download>Download Resume</a>
+                <a href="#projects" class="btn secondary-btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-dark">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate Front-End Developer and Machine Learning enthusiast with experience in building responsive web interfaces and AI-powered applications. During my internship at Web Blinders, I collaborated with senior developers to enhance UI functionality and optimize user experience. As a Machine Learning Intern at Edunet Foundation, I developed a medical diagnosis system using AI with 95% accuracy. My projects demonstrate strong skills in JavaScript, Python, and modern web technologies like HTML and CSS. I follow a modular development approach and emphasize clean, scalable code. Proficient in SQL and familiar with data structures and problem-solving techniques. I enjoy transforming ideas into real-world solutions that improve efficiency and usability. Currently pursuing a B.Tech in AIML, I'm driven to explore opportunities that combine AI and frontend development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-header">
+            <h2>Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-cards">
+            <div class="exp-card">
+                <div class="exp-header">
+                    <div class="exp-title">
+                        <h3>Machine Learning Intern</h3>
+                        <p class="company">Edunet Foundation</p>
+                    </div>
+                    <div class="exp-duration">Feb 2025 - Mar 2025</div>
+                </div>
+                <div class="exp-content">
+                    <p>Focused on medical diagnosis utilizing machine learning:</p>
+                    <ul>
+                        <li>Conducted data preprocessing, augmentation, and model evaluation.</li>
+                        <li>Deployed a user-friendly web application for medical diagnosis using AI with 95% accuracy.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="exp-card">
+                <div class="exp-header">
+                    <div class="exp-title">
+                        <h3>Web Development Intern</h3>
+                        <p class="company">Web Blinders</p>
+                    </div>
+                    <div class="exp-duration">Present</div>
+                </div>
+                <div class="exp-content">
+                    <p>Interning in web development, collaborating with senior developers to build responsive user interfaces and enhance application functionality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-dark">
+        <div class="section-header">
+            <h2>Education</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="education-cards">
+            <div class="edu-card">
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h3>B.tech (AIML)</h3>
+                <p class="institution">G.Pulla Reddy Engineering College</p>
+                <p class="location">Kurnool, A.P</p>
+                <p class="year">08/2022 – 05/2026</p>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon"><i class="fas fa-school"></i></div>
+                <h3>Intermediate</h3>
+                <p class="institution">Narayana Junior College</p>
+                <p class="location">Anantapur, A.P</p>
+                <p class="year">06/2020 – 05/2022</p>
+            </div>
+            <div class="edu-card">
+                <div class="edu-icon"><i class="fas fa-book"></i></div>
+                <h3>SSC</h3>
+                <p class="institution">L.R.G English Medium High School</p>
+                <p class="location">Anantapur, A.P</p>
+                <p class="year">06/2019 - 05/2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>AI-Powered Medical Diagnosis System</h3>
+                <p>Implemented a system utilizing machine learning to analyze patient data.</p>
+                <div class="project-links">
+                    <a href="https://github.com/kalyani324-allu/Medical-Diagnosis-Using-AI" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>AI AGENT</h3>
+                <p>Implemented an AI agent for various automated tasks using Playwright and browser technologies.</p>
+                <div class="project-links">
+                    <a href="https://github.com/kalyani324-allu/AI-Agent" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-dark">
+        <div class="section-header">
+            <h2>Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">C</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                <div class="skill-items">
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-database"></i> Database</h3>
+                <div class="skill-items">
+                    <div class="skill-item">SQL</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3><i class="fas fa-brain"></i> Other Skills</h3>
+                <div class="skill-items">
+                    <div class="skill-item">Data Structures</div>
+                    <div class="skill-item">Problem Solving</div>
+                    <div class="skill-item">Communication Skills</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="section-header">
+            <h2>Certifications</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="certification-list">
+            <div class="certification-item">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>NPTEL Ethical Hacking</h3>
+                    <p>Course on Ethical Hacking</p>
+                </div>
+            </div>
+            <div class="certification-item">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>Responsive Web Design Developer Certification</h3>
+                    <p>Certification from freecodecamp</p>
+                </div>
+            </div>
+            <div class="certification-item">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>Python Programming Certification</h3>
+                    <p>Certification from Infosys Springboard</p>
+                </div>
+            </div>
+            <div class="certification-item">
+                <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>Tata Data Visualisation</h3>
+                    <p>Job simulation focusing on data visualization in business</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-dark">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>Feel free to reach out to me through any of these platforms:</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/allu-kalyani" class="social-icon" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:kalyanisrinivas3204@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 ALLU KALYANI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
